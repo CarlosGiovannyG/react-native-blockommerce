@@ -1,0 +1,79 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "$commerce/*": [
+        "src/framework/commerce/vtex/*"
+      ],
+      "$commerce": [
+        "src/framework/commerce/vtex"
+      ],
+      "$core-commerce/*": [
+        "src/framework/commerce/kernel/*"
+      ],
+      "$core-commerce": [
+        "src/framework/commerce/kernel"
+      ],
+      "$core-analytics/*": [
+        "./src/framework/analytics/kernel/*"
+      ],
+      "$core-analytics": [
+        "./src/framework/analytics/kernel"
+      ],
+      "$analytics/*": [
+        "./src/framework/analytics/firebase/*"
+      ],
+      "$analytics": [
+        "./src/framework/analytics/firebase"
+      ],
+      "$styleguide/*": [
+        "src/framework/styleguide/*"
+      ],
+      "$styleguide": [
+        "src/framework/styleguide"
+      ],
+      "$engine/*": [
+        "src/framework/engine/*"
+      ],
+      "$engine": [
+        "src/framework/engine"
+      ],
+      "$core-cms/*": [
+        "./src/framework/cms/kernel/*"
+      ],
+      "$core-cms": [
+        "./src/framework/cms/kernel"
+      ],
+      "$cms/*": [
+        "src/framework/cms/local/*"
+      ],
+      "$cms": [
+        "src/framework/cms/local"
+      ],
+      "react-native-blockommerce": [
+        "./src/index"
+      ]
+    },
+    //"allowUnreachableCode": false,
+    //"allowUnusedLabels": false,
+    "esModuleInterop": true,
+    //"importsNotUsedAsValues": "error",
+    //"forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": [
+      "esnext"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    //"noFallthroughCasesInSwitch": true,
+    //"noImplicitReturns": true,
+    //"noImplicitUseStrict": false,
+    //"noStrictGenericChecks": false,
+    //"noUnusedLocals": true,
+    //"noUnusedParameters": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    //"strict": true,
+    "target": "esnext"
+  }
+}
